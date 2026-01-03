@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idiotenbonus Hunt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Montserrat', 'sans-serif'],
+            },
+            colors: {
+              'brand-dark': '#05050a',
+              'brand-card': '#0f0f16',
+              'brand-purple': '#8b5cf6',
+              'brand-purple-glow': '#a78bfa',
+              'brand-text': '#ffffff',
+              'brand-muted': '#9ca3af',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #05050a;
+        color: white;
+      }
+      .neon-text {
+        text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+      }
+      .neon-box {
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "uuid": "https://esm.sh/uuid@^13.0.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
